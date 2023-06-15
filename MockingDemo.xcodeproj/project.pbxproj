@@ -11,6 +11,10 @@
 		663738C62A3B8FCF003179D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738C52A3B8FCF003179D0 /* ContentView.swift */; };
 		663738C82A3B8FD0003179D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663738C72A3B8FD0003179D0 /* Assets.xcassets */; };
 		663738CB2A3B8FD0003179D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */; };
+		663738D22A3B927B003179D0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D12A3B927B003179D0 /* DashboardView.swift */; };
+		663738D42A3B9296003179D0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D32A3B9296003179D0 /* LoginViewModel.swift */; };
+		663738D62A3B92A2003179D0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D52A3B92A2003179D0 /* Webservice.swift */; };
+		663738D82A3B92BB003179D0 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D72A3B92BB003179D0 /* LoginResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		663738C52A3B8FCF003179D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		663738C72A3B8FD0003179D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		663738D12A3B927B003179D0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		663738D32A3B9296003179D0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		663738D52A3B92A2003179D0 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		663738D72A3B92BB003179D0 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				663738C32A3B8FCF003179D0 /* MockingDemoApp.swift */,
-				663738C52A3B8FCF003179D0 /* ContentView.swift */,
+				663738DA2A3B92CA003179D0 /* Service */,
+				663738D92A3B92C5003179D0 /* Models */,
+				663738DC2A3B92D7003179D0 /* Views */,
+				663738DB2A3B92CF003179D0 /* View Models */,
 				663738C72A3B8FD0003179D0 /* Assets.xcassets */,
 				663738C92A3B8FD0003179D0 /* Preview Content */,
 			);
@@ -65,6 +76,39 @@
 				663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		663738D92A3B92C5003179D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				663738D72A3B92BB003179D0 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		663738DA2A3B92CA003179D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				663738D52A3B92A2003179D0 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		663738DB2A3B92CF003179D0 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				663738D32A3B9296003179D0 /* LoginViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		663738DC2A3B92D7003179D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				663738C52A3B8FCF003179D0 /* ContentView.swift */,
+				663738D12A3B927B003179D0 /* DashboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663738D42A3B9296003179D0 /* LoginViewModel.swift in Sources */,
 				663738C62A3B8FCF003179D0 /* ContentView.swift in Sources */,
+				663738D82A3B92BB003179D0 /* LoginResponse.swift in Sources */,
+				663738D22A3B927B003179D0 /* DashboardView.swift in Sources */,
+				663738D62A3B92A2003179D0 /* Webservice.swift in Sources */,
 				663738C42A3B8FCF003179D0 /* MockingDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
