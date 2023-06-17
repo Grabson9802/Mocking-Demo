@@ -11,7 +11,29 @@
 		663738C62A3B8FCF003179D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738C52A3B8FCF003179D0 /* ContentView.swift */; };
 		663738C82A3B8FD0003179D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663738C72A3B8FD0003179D0 /* Assets.xcassets */; };
 		663738CB2A3B8FD0003179D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */; };
+		663738D22A3B927B003179D0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D12A3B927B003179D0 /* DashboardView.swift */; };
+		663738D42A3B9296003179D0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D32A3B9296003179D0 /* LoginViewModel.swift */; };
+		663738D62A3B92A2003179D0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D52A3B92A2003179D0 /* Webservice.swift */; };
+		663738D82A3B92BB003179D0 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D72A3B92BB003179D0 /* LoginResponse.swift */; };
+		663738E42A3C670E003179D0 /* MockingDemoUserInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738E32A3C670E003179D0 /* MockingDemoUserInterfaceTests.swift */; };
+		663738E62A3C670E003179D0 /* MockingDemoUserInterfaceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738E52A3C670E003179D0 /* MockingDemoUserInterfaceTestsLaunchTests.swift */; };
+		663738EE2A3DC233003179D0 /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738ED2A3DC233003179D0 /* MockWebservice.swift */; };
+		663738F02A3DC2B5003179D0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D52A3B92A2003179D0 /* Webservice.swift */; };
+		663738F32A3DC3BF003179D0 /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738F22A3DC3BF003179D0 /* NetworkServiceFactory.swift */; };
+		663738F42A3DC6E1003179D0 /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738ED2A3DC233003179D0 /* MockWebservice.swift */; };
+		663738F52A3DCA3B003179D0 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738D72A3B92BB003179D0 /* LoginResponse.swift */; };
+		663738F82A3DCCB5003179D0 /* LoginPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663738F72A3DCCB5003179D0 /* LoginPageObject.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663738E72A3C670E003179D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663738B82A3B8FCF003179D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663738BF2A3B8FCF003179D0;
+			remoteInfo = MockingDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		663738C02A3B8FCF003179D0 /* MockingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +41,27 @@
 		663738C52A3B8FCF003179D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		663738C72A3B8FD0003179D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		663738D12A3B927B003179D0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		663738D32A3B9296003179D0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		663738D52A3B92A2003179D0 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		663738D72A3B92BB003179D0 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		663738E12A3C670E003179D0 /* MockingDemoUserInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingDemoUserInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		663738E32A3C670E003179D0 /* MockingDemoUserInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingDemoUserInterfaceTests.swift; sourceTree = "<group>"; };
+		663738E52A3C670E003179D0 /* MockingDemoUserInterfaceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingDemoUserInterfaceTestsLaunchTests.swift; sourceTree = "<group>"; };
+		663738ED2A3DC233003179D0 /* MockWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebservice.swift; sourceTree = "<group>"; };
+		663738F22A3DC3BF003179D0 /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
+		663738F72A3DCCB5003179D0 /* LoginPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		663738BD2A3B8FCF003179D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663738DE2A3C670E003179D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				663738C22A3B8FCF003179D0 /* MockingDemo */,
+				663738E22A3C670E003179D0 /* MockingDemoUserInterfaceTests */,
 				663738C12A3B8FCF003179D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				663738C02A3B8FCF003179D0 /* MockingDemo.app */,
+				663738E12A3C670E003179D0 /* MockingDemoUserInterfaceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				663738C32A3B8FCF003179D0 /* MockingDemoApp.swift */,
-				663738C52A3B8FCF003179D0 /* ContentView.swift */,
+				663738F12A3DC3AD003179D0 /* Factories */,
+				663738DA2A3B92CA003179D0 /* Service */,
+				663738D92A3B92C5003179D0 /* Models */,
+				663738DC2A3B92D7003179D0 /* Views */,
+				663738DB2A3B92CF003179D0 /* View Models */,
 				663738C72A3B8FD0003179D0 /* Assets.xcassets */,
 				663738C92A3B8FD0003179D0 /* Preview Content */,
 			);
@@ -65,6 +110,74 @@
 				663738CA2A3B8FD0003179D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		663738D92A3B92C5003179D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				663738D72A3B92BB003179D0 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		663738DA2A3B92CA003179D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				663738D52A3B92A2003179D0 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		663738DB2A3B92CF003179D0 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				663738D32A3B9296003179D0 /* LoginViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		663738DC2A3B92D7003179D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				663738C52A3B8FCF003179D0 /* ContentView.swift */,
+				663738D12A3B927B003179D0 /* DashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		663738E22A3C670E003179D0 /* MockingDemoUserInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				663738F62A3DCC9F003179D0 /* PageObjects */,
+				663738EC2A3DC21E003179D0 /* Mocks */,
+				663738E32A3C670E003179D0 /* MockingDemoUserInterfaceTests.swift */,
+				663738E52A3C670E003179D0 /* MockingDemoUserInterfaceTestsLaunchTests.swift */,
+			);
+			path = MockingDemoUserInterfaceTests;
+			sourceTree = "<group>";
+		};
+		663738EC2A3DC21E003179D0 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				663738ED2A3DC233003179D0 /* MockWebservice.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		663738F12A3DC3AD003179D0 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				663738F22A3DC3BF003179D0 /* NetworkServiceFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		663738F62A3DCC9F003179D0 /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				663738F72A3DCCB5003179D0 /* LoginPageObject.swift */,
+			);
+			path = PageObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +200,24 @@
 			productReference = 663738C02A3B8FCF003179D0 /* MockingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		663738E02A3C670E003179D0 /* MockingDemoUserInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663738E92A3C670E003179D0 /* Build configuration list for PBXNativeTarget "MockingDemoUserInterfaceTests" */;
+			buildPhases = (
+				663738DD2A3C670E003179D0 /* Sources */,
+				663738DE2A3C670E003179D0 /* Frameworks */,
+				663738DF2A3C670E003179D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663738E82A3C670E003179D0 /* PBXTargetDependency */,
+			);
+			name = MockingDemoUserInterfaceTests;
+			productName = MockingDemoUserInterfaceTests;
+			productReference = 663738E12A3C670E003179D0 /* MockingDemoUserInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +230,10 @@
 				TargetAttributes = {
 					663738BF2A3B8FCF003179D0 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					663738E02A3C670E003179D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 663738BF2A3B8FCF003179D0;
 					};
 				};
 			};
@@ -116,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				663738BF2A3B8FCF003179D0 /* MockingDemo */,
+				663738E02A3C670E003179D0 /* MockingDemoUserInterfaceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +266,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		663738DF2A3C670E003179D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +280,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663738F42A3DC6E1003179D0 /* MockWebservice.swift in Sources */,
+				663738D42A3B9296003179D0 /* LoginViewModel.swift in Sources */,
 				663738C62A3B8FCF003179D0 /* ContentView.swift in Sources */,
+				663738D82A3B92BB003179D0 /* LoginResponse.swift in Sources */,
+				663738D22A3B927B003179D0 /* DashboardView.swift in Sources */,
+				663738F32A3DC3BF003179D0 /* NetworkServiceFactory.swift in Sources */,
+				663738D62A3B92A2003179D0 /* Webservice.swift in Sources */,
 				663738C42A3B8FCF003179D0 /* MockingDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		663738DD2A3C670E003179D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663738E42A3C670E003179D0 /* MockingDemoUserInterfaceTests.swift in Sources */,
+				663738EE2A3DC233003179D0 /* MockWebservice.swift in Sources */,
+				663738F02A3DC2B5003179D0 /* Webservice.swift in Sources */,
+				663738E62A3C670E003179D0 /* MockingDemoUserInterfaceTestsLaunchTests.swift in Sources */,
+				663738F52A3DCA3B003179D0 /* LoginResponse.swift in Sources */,
+				663738F82A3DCCB5003179D0 /* LoginPageObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		663738E82A3C670E003179D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663738BF2A3B8FCF003179D0 /* MockingDemo */;
+			targetProxy = 663738E72A3C670E003179D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		663738CC2A3B8FD0003179D0 /* Debug */ = {
@@ -317,6 +487,40 @@
 			};
 			name = Release;
 		};
+		663738EA2A3C670E003179D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28BW499ZN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystiangrabowy.MockingDemoUserInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockingDemo;
+			};
+			name = Debug;
+		};
+		663738EB2A3C670E003179D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28BW499ZN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystiangrabowy.MockingDemoUserInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockingDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +538,15 @@
 			buildConfigurations = (
 				663738CF2A3B8FD0003179D0 /* Debug */,
 				663738D02A3B8FD0003179D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663738E92A3C670E003179D0 /* Build configuration list for PBXNativeTarget "MockingDemoUserInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663738EA2A3C670E003179D0 /* Debug */,
+				663738EB2A3C670E003179D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
